@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mentally Grounded</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:linear-gradient(135deg,#F8BBD0,#B2EBF2,#C8E6C9);
+color:#333;
+}
+
+header{
+background:#6A1B9A;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:40px;
+}
+
+header p{
+font-size:18px;
+}
+
+nav{
+background:#00ACC1;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+h2{
+color:#6A1B9A;
+}
+
+.about-container{
+max-width:1000px;
+margin:auto;
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+gap:40px;
+}
+
+.about-photo img{
+width:260px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.about-text{
+flex:2;
+text-align:left;
+font-size:18px;
+line-height:1.7;
+}
+
+.ebooks{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+.card h3{
+color:#00ACC1;
+}
+
+.button{
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+background:#6A1B9A;
+color:white;
+border-radius:25px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.button:hover{
+background:#8E24AA;
+}
+
+.youtube-section{
+background:#B2EBF2;
+}
+
+iframe{
+max-width:100%;
+border-radius:12px;
+}
+
+footer{
+background:#6A1B9A;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Mentally Grounded</h1>
+<p>Empowering Minds. Strengthening Faith. Transforming Lives.</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#ebooks">Ebooks</a>
+<a href="#app">Devotional App</a>
+<a href="#youtube">Daily Devotionals</a>
+</nav>
+
+
+<!-- ABOUT SECTION -->
+
+<section id="about">
+
+<h2>About J. Alise Wynn</h2>
+
+<div class="about-container">
+
+<div class="about-photo">
+
+<img src="jalise.jpg" alt="J. Alise Wynn">
+
+</div>
+
+<div class="about-text">
+
+<p>
+J. Alise Wynn is a mental health advocate, author, and inspirational voice dedicated to spreading awareness about emotional healing and spiritual strength.
+</p>
+
+<p>
+In 2012, she experienced a life-changing psychotic breakdown during a period of intense emotional duress and heartbreak caused by failed relationships in both love and friendships. What followed was a difficult journey of recovery, self-reflection, and rebuilding her life.
+</p>
+
+<p>
+Through faith, perseverance, and personal growth, she turned her experience into a mission to encourage others facing mental health struggles. Her books and devotionals provide encouragement, understanding, and guidance for those navigating emotional challenges.
+</p>
+
+<p>
+Today her message inspires readers to rise above hardship, strengthen their faith, and become <strong>Mentally Grounded</strong>.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- EBOOK SECTION -->
+
+<section id="ebooks">
+
+<h2>Shop Our Ebooks</h2>
+<p>Download instantly after purchase.</p>
+
+<div class="ebooks">
+
+<div class="card">
+<h3>Losing It</h3>
+<a href="https://payhip.com/b/OfvQ7" class="button" target="_blank">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>UNSTOPPABLE</h3>
+<a href="https://payhip.com/b/Y6pdq" class="button" target="_blank">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>Command Your Day</h3>
+<a href="https://payhip.com/b/3p6mg" class="button" target="_blank">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>Mind Over Metabolism</h3>
+<a href="https://payhip.com/b/lkqBa" class="button" target="_blank">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>Mentally Grounded</h3>
+<a href="https://payhip.com/b/sqULA" class="button" target="_blank">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>Stronger Than Side Effects</h3>
+<a href="https://payhip.com/b/Lcw13" class="button" target="_blank">Buy Now</a>
+</div>
+
+<div class="card">
+<h3>He Knows Bless Oil</h3>
+<a href="https://payhip.com/b/GNlPz" class="button" target="_blank">Buy Now</a>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- APP SECTION -->
+
+<section id="app">
+
+<h2>Download the 30-Day Devotional App</h2>
+
+<p>Grow spiritually and stay Mentally Grounded every day.</p>
+
+<a href="#" class="button">Download App (Coming Soon)</a>
+
+</section>
+
+
+<!-- YOUTUBE SECTION -->
+
+<section id="youtube" class="youtube-section">
+
+<h2>Daily Devotionals</h2>
+
+<p>Watch daily encouragement and spiritual guidance.</p>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/videoseries?list=PLg9xXRHQBPhZ183JOYWI08aIFCxNx0f_r"
+title="Daily Devotionals Playlist"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Mentally Grounded | All Rights Reserved</p>
+
+</footer>
+
+</body>
+</html>
